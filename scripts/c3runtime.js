@@ -3790,7 +3790,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.Spawn,
 		C3.Plugins.Sprite.Exps.LayerName,
 		C3.Plugins.Sprite.Exps.AnimationFrame,
-		C3.Plugins.Sprite.Cnds.IsVisible
+		C3.Plugins.Sprite.Cnds.IsVisible,
+		C3.Plugins.Sprite.Acts.SetSize
 	];
 };
 self.C3_JsPropNameTable = [
@@ -3816,6 +3817,11 @@ self.C3_JsPropNameTable = [
 	{sentence8: 0},
 	{button_hint: 0},
 	{hint: 0},
+	{panel_start_ls: 0},
+	{kangaroo_start_ls: 0},
+	{button_start_ls: 0},
+	{panel_end_ls: 0},
+	{button_resplay_ls: 0},
 	{sentences: 0},
 	{picked_word: 0},
 	{game_state: 0},
@@ -3959,7 +3965,11 @@ self.C3_ExpressionFuncs = [
 		() => "",
 		() => 40,
 		() => "pop-in",
-		() => 2
+		() => 2,
+		() => 1446,
+		() => 748,
+		() => 0.125,
+		() => 1492
 ];
 
 
